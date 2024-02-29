@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Estructuración de proyectos y propuesta de mercadeo para el sector del deporte.',
+    descripcionCurso:
+      'Los temas tratados en este componente de formación permiten reconocer aspectos clave inherentes a la estructuración de proyectos y propuestas aplicables al sector deporte.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -30,29 +32,142 @@ export default {
       },
       {
         nombreRuta: 'tema1',
+        icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Elementos conceptuales de la gestión de proyectos ',
         desarrolloContenidos: true,
         subMenu: [
           {
+            icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Concepto y tipos de proyectos',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Concepto y procesos de la gestión de proyectos',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
+        icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Grupo de inicio del proyecto',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Definición y componentes para el inicio de un proyecto',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Acta de constitución del proyecto',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Identificación de las partes interesadas',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Grupo de planificación del proyecto',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Plan de gestión del alcance del proyecto',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Plan de gestión del cronograma del proyecto',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Plan de gestión de costos del proyecto',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Plan de gestión de calidad del proyecto',
+            hash: 't_3_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.5',
+            titulo: 'Plan de gestión de recursos humanos',
+            hash: 't_3_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.6',
+            titulo: 'Plan de gestión de comunicaciones',
+            hash: 't_3_6',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.7',
+            titulo: 'Plan de gestión del riesgo del proyecto',
+            hash: 't_3_7',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.8',
+            titulo: 'Plan de gestión de adquisiciones del proyecto',
+            hash: 't_3_8',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo:
+          'Formulación de propuestas de mercado acordes con las necesidades poblacionales del sector',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Identificación del mercado y población objeto',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Concepto y características de portafolio de servicios',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Construcción de portafolio de servicios',
+            hash: 't_4_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.4',
+            titulo: 'Concepto y estrategias de mercadeo deportivo',
+            hash: 't_4_4',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,31 +217,82 @@ export default {
   },
   complementario: [
     {
-      tema: '',
+      tema:
+        'Project Management Institute [PMI]. (2004). Guía de los Fundamentos para la Dirección de Proyectos.',
+      tipo: 'Libro digital',
       referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      descarga:
+        'https://www.sadamweb.com.ar/news/2016_08Agosto/Guia_Fundamentos_para_la_Direccion_de_Proyectos-4ta_Edicion.pdf?PMBOX=http://www.sadamweb.com.ar/news/2016_08Agosto/Guia_Fundamentos_para_la_Direccion_de_Proyectos-4ta_Edicion.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Cliente',
+      significado:
+        'Persona o empresa que toma la decisión de compra de un producto o servicio, y que, a su vez, mantiene una relación comercial con la empresa, organización o persona.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Fase del proyecto',
+      significado:
+        'Conjunto relacionado de actividades del proyecto que culmina en la terminación de uno o más entregables.',
+    },
+    {
+      termino: 'Gestión de proyecto',
+      significado:
+        'Aplicación de conocimientos, destrezas, herramientas y técnicas a las actividades de un proyecto para el logro de los requerimientos.',
+    },
+    {
+      termino: 'Mercadeo',
+      significado:
+        'La actividad, el conjunto de instituciones y los procesos para crear, comunicar, entregar e intercambiar ofertas que tienen valor para los clientes, los socios y la sociedad en general.',
+    },
+    {
+      termino: 'Mercadeo deportivo',
+      significado:
+        'El arte para descubrir e identificar claramente las necesidades y expectativas del mercado y el arte para ofrecer y ejecutar la mejor opción de manera tal que maximice la satisfacción de necesidades y expectativas de practicantes, aficionados, patrocinadores y la sociedad en general, con el fin de lograr que practicantes y seguidores se unan a las causas para generar beneficio social.',
+    },
+    {
+      termino: 'Partes interesadas',
+      significado:
+        'Personas o grupos que pueden afectar, verse afectados o sentirse afectados por las decisiones o actividades del proyecto.',
+    },
+    {
+      termino: 'Proyecto',
+      significado:
+        'Esfuerzo temporal que se lleva a cabo para crear un producto, servicio o resultado único.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Cajal, A. (2020). Portafolio de servicios: tipos, partes y ejemplos. Lifeder.',
+      link: 'https://www.lifeder.com/portafolio-de-servicios/.',
+    },
+    {
+      referencia:
+        'ESAN. (2016). El Marketing y sus definiciones. Conexión ESAN.',
+      link:
+        'https://www.esan.edu.pe/apuntes-empresariales/2016/05/el-marketing-y-sus-definiciones/',
+    },
+    {
+      referencia:
+        'International Project Management Association [IPMA]. (2006). ICB Competence Baseline Version 3.0. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Agricultura y Pesca de España. Segmentación de mercados.',
+      link:
+        'https://www.mapa.gob.es/ministerio/pags/biblioteca/fondo/pdf/5269_39.pdf',
+    },
+    {
+      referencia:
+        'Padierna, J. y Cardona, L. (2020). Administración, dirección y gestión en el deporte. Editorial Kinesis. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Project Management Institute [PMI]. (2008). Organizational Project Management Maturity Model.',
       link: '',
     },
   ],
@@ -142,8 +308,7 @@ export default {
         {
           nombre: 'Olga Constanza Bermúdez Jaimes',
           cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -153,8 +318,7 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Nombre del rol',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -164,26 +328,22 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre responsable',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre',
           cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre',
           cargo: 'Actividad Didáctica',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -193,27 +353,23 @@ export default {
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Jaime Hernan Tejada',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        }
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
       ],
     },
   ],
