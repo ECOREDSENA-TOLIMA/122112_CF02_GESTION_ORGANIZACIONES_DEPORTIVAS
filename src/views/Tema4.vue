@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 3
+        span 4
       h1 Formulación de propuestas de mercado acordes con las necesidades de la población del sector
     .row.mt-5
       .col-12.col-lg-8
@@ -181,63 +181,63 @@
     .row.mt-5
       .col-10.col-lg-8.offset-1.offset-lg-2(data-aos="fade-left")
         LineaTiempoD.color-primario
-          .row(numero="1" titulo="Presentación:")
+          .row(numero="1" titulo="Presentación")
             .col-3.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-17.svg", alt="Imagen decorativa").w-75.margin-0-auto
             .col-12.col-lg-9.align-self-center
               p.text-small En la presentación, se da información general de la empresa. En este apartado, se incluye el nombre de la organización, el año en el que comenzó a operar y cómo ha progresado desde su fundación.
             
-          .row(numero="2" titulo="Objetivos:")
+          .row(numero="2" titulo="Objetivos")
             .col-3.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-18.svg", alt="Imagen decorativa").w-75.margin-0-auto
             .col-12.col-lg-9.align-self-center
               p.text-small En esta parte del portafolio, se incluyen las metas que la organización desea alcanzar a corto, mediano y largo plazo. Permite que los futuros clientes o socios se familiaricen con el proceder de la empresa.
 
-          .row(numero="3" titulo="Misión y visión:")
+          .row(numero="3" titulo="Misión y visión")
             .col-3.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-19.svg", alt="Imagen decorativa").w-75.margin-0-auto
             .col-12.col-lg-9.align-self-center
-              p.text-small la misión es la razón por la cual la empresa existe, el motor que la mueve. Es decir, es la justificación del accionar de la empresa. En este sentido, la misión se relaciona con los objetivos. Por su parte, la visión es la proyección que la empresa tiene de sí misma en un futuro, lo que espera cumplir a largo plazo, es decir, cómo se ve en 10, 15, 20 años.
-          .row(numero="3" titulo="Certificaciones:")
+              p.text-small La misión es la razón por la cual la empresa existe, el motor que la mueve. Es decir, es la justificación del accionar de la empresa. En este sentido, la misión se relaciona con los objetivos. Por su parte, la visión es la proyección que la empresa tiene de sí misma en un futuro, lo que espera cumplir a largo plazo, es decir, cómo se ve en 10, 15, 20 años.
+          .row(numero="3" titulo="Certificaciones")
             .col-3.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-20.svg", alt="Imagen decorativa").w-75.margin-0-auto
             .col-12.col-lg-9.align-self-center
               p.text-small En este apartado se incluyen los reconocimientos que se le han otorgado a la empresa en su trayectoria. Este apartado es de vital importancia, puesto que revela la calidad de la organización.
-          .row(numero="3" titulo="Sociedades:")
+          .row(numero="3" titulo="Sociedades")
             .col-3.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-21.svg", alt="Imagen decorativa").w-75.margin-0-auto
             .col-12.col-lg-9.align-self-center
               p.text-small En esta parte del portafolio, se indican las relaciones que la empresa tiene con otras organizaciones o individuos.
-          .row(numero="3" titulo="Clientes:")
+          .row(numero="3" titulo="Clientes")
             .col-3.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-22.svg", alt="Imagen decorativa").w-75.margin-0-auto
             .col-12.col-lg-9.align-self-center
               p.text-small En esta parte, se muestra, a grandes rasgos, la trayectoria de la empresa, se dan a conocer los individuos o grupos que han contratado los servicios de la empresa. En algunos casos, se incluyen testimonios de los clientes que dan fe del proceder de la empresa.
-          .row(numero="3" titulo="Proveedores:")
+          .row(numero="3" titulo="Proveedores")
             .col-3.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-23.svg", alt="Imagen decorativa").w-75.margin-0-auto
             .col-12.col-lg-9.align-self-center
               p.text-small En este apartado, se incluyen las organizaciones que suministran materiales para el desarrollo de los servicios que ofrece la empresa que emite el portafolio. Al igual que las certificaciones, la información sobre los proveedores revela la calidad de los servicios prestados por la empresa: si los proveedores son de confianza y de calidad, entonces es muy probable que los servicios ofrecidos también lo sean.
-          .row(numero="3" titulo="Servicios (vigentes y en desarrollo):")
+          .row(numero="3" titulo="Servicios (vigentes y en desarrollo)")
             .col-3.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-24.svg", alt="Imagen decorativa").w-75.margin-0-auto
             .col-12.col-lg-9.align-self-center
               p.text-small Este es el apartado central del portafolio, ya que se muestran los servicios que ofrece la empresa. Se debe incluir una lista detallada de los servicios, tanto los que están vigentes (es decir, los que se están ejecutando al momento de la emisión del portafolio) como los que están en desarrollo (es decir, los que se espera ejecutar en un futuro inmediato). 
-          .row(numero="3" titulo="Proyectos:")
+          .row(numero="3" titulo="Proyectos")
             .col-3.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-25.svg", alt="Imagen decorativa").w-75.margin-0-auto
             .col-12.col-lg-9.align-self-center
               p.text-small En el apartado “proyectos”, se incluyen los planes y programas en los que la empresa está involucrada.
-          .row(numero="3" titulo="Información de contacto:")
+          .row(numero="3" titulo="Información de contacto")
             .col-3.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-26.svg", alt="Imagen decorativa").w-75.margin-0-auto
@@ -290,29 +290,29 @@
         ul.lista-ul.mt-5
           li 
             i.fas.fa-angle-right
-            p #[strong.text-azul Estrategias de segmentación: ] enfocadas en la selección del público – cliente objetivo.
+            | #[strong.text-azul Estrategias de segmentación: ] enfocadas en la selección del público – cliente objetivo.
 
           li.mt-2
             i.fas.fa-angle-right
-            p #[strong.text-azul  Estrategias basadas en la competencia:] se define la posición que se ocupa en el mercado respecto a la competencia.
+            | #[strong.text-azul  Estrategias basadas en la competencia:] se define la posición que se ocupa en el mercado respecto a la competencia.
           li.mt-2 
             i.fas.fa-angle-right
-            p #[strong.text-azul Estrategia de posicionamiento de marca:] se establecen mecanismos para un mayor reconocimiento de la marca en el mercado.
+            | #[strong.text-azul Estrategia de posicionamiento de marca:] se establecen mecanismos para un mayor reconocimiento de la marca en el mercado.
           li.mt-2 
             i.fas.fa-angle-right
-            p #[strong.text-azul Estrategias de nuevos mercados:] buscan expandir la oferta a nuevos clientes y nuevos territorios.
+            | #[strong.text-azul Estrategias de nuevos mercados:] buscan expandir la oferta a nuevos clientes y nuevos territorios.
           li.mt-2 
             i.fas.fa-angle-right
-            p #[strong.text-azul Estrategias de mercadeo digital:] posicionan la oferta de productos y servicios a través del comercio digital.
+            | #[strong.text-azul Estrategias de mercadeo digital:] posicionan la oferta de productos y servicios a través del comercio digital.
           li.mt-2 
             i.fas.fa-angle-right
-            p #[strong.text-azul Estrategia de fidelización:] se establecen mecanismos para generar adherencia del cliente con la organización y evitar que se vaya con la competencia.
+            | #[strong.text-azul Estrategia de fidelización:] se establecen mecanismos para generar adherencia del cliente con la organización y evitar que se vaya con la competencia.
           li.mt-2 
             i.fas.fa-angle-right
-            p #[strong.text-azul Estrategia del voz a voz:] se basa en las buenas recomendaciones de clientes satisfechos a otros futuros y potenciales nuevos clientes.
+            | #[strong.text-azul Estrategia del voz a voz:] se basa en las buenas recomendaciones de clientes satisfechos a otros futuros y potenciales nuevos clientes.
           li.mt-2 
             i.fas.fa-angle-right
-            p #[strong.text-azul Estrategia de mercadeo directo:] el cliente obtiene información directa y personalizada de la organización, sin intermediarios.
+            | #[strong.text-azul Estrategia de mercadeo directo:] el cliente obtiene información directa y personalizada de la organización, sin intermediarios.
     p.mt-5 Finalmente, independientemente de la estrategia que la organización seleccione, se deberán tener en cuenta los siguientes pasos para garantizar su éxito:
     .row.mt-4
       .col-12.col-lg-7.offset-1

@@ -24,10 +24,26 @@
     figure.mt-0(data-aos="flip-up")
       img(src="@/assets/curso/temas/tema2/tema-2-3.png", alt="Imagen Decorativa")
     p.mt-5 Lo primero que se deberá conocer al dar inicio a un proyecto son sus objetivos, cuáles serán los resultados esperados, el alcance, la duración y los recursos. Por lo que un proyecto debería partir dando respuesta a las siguientes preguntas:
-    .row.mt-2(data-aos="fade-up-right")
-      .col-12.col-lg-10.offset-0.offset-lg-1
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-3
         figure
-          img(src="@/assets/curso/temas/tema2/tema-2-4.png", alt="Imagen Decorativa")
+          img(src="@/assets/curso/temas/tema2/tema-2-4_1.svg", alt="Imagen Decorativa")
+      .col-lg-3
+        figure
+          img(src="@/assets/curso/temas/tema2/tema-2-4_2.svg", alt="Imagen Decorativa")
+      .col-lg-3
+        figure
+          img(src="@/assets/curso/temas/tema2/tema-2-4_3.svg", alt="Imagen Decorativa")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-3
+        figure
+          img(src="@/assets/curso/temas/tema2/tema-2-4_4.svg", alt="Imagen Decorativa")
+      .col-lg-3
+        figure
+          img(src="@/assets/curso/temas/tema2/tema-2-4_5.svg", alt="Imagen Decorativa")
+      .col-lg-3
+        figure
+          img(src="@/assets/curso/temas/tema2/tema-2-4_6.svg", alt="Imagen Decorativa")
     p.mt-3 Los proyectos son originados como respuesta a necesidades y requerimientos de diferentes partes interesadas, como lo pueden ser:
     .row.mt-5
       .col-5.col-lg-2.bg-azul-claro.rounded-15.text-white.text-center.p-0.ml-3
@@ -106,7 +122,7 @@
           img(src="@/assets/curso/temas/tema2/tema-2-12.svg", alt="Imagen Decorativa").margin-0-auto.floating
       .col-12.col-lg-8
         p El proyecto inicia con el desarrollo de un acta de constitución o autorización, que consiste en un documento formal, donde la organización y/o patrocinadores del proyecto autorizan al director del proyecto para aplicar los recursos destinados para la ejecución del mismo. Mediante este documento, se incluyen los siguientes elementos:
-        ul.lista-ul.mt-3.acento-contenido
+        ul.lista-ul.mt-3
           li 
             i.fas.fa-angle-right
             | Se destinan los recursos necesarios para el desarrollo del proyecto. 
@@ -198,58 +214,28 @@
       .col-12
         .titulo-quinto.color-acento-contenido.mt-5
           h4 Identificación de las partes interesadas
-    .row.mt-3
-      .col-10.offset-1.py-5.d-none.d-lg-block(style="background-color: #ececec; height: 580px; overflow:hidden").position-relative
-        .row.mx-0.h-100
-          figure.z-index-2.d-none.d-lg-block.position-absolute(style="top: 2%; left:33%; width: 36%")
-            img(src="@/assets/curso/temas/tema2/tema-titulo.png", alt="Imagen Decorativa")
-          .col-20.pt-5.px-0.position-absolute.img-1.z-index-2.cursor-pointer(@click="toggleShowInfo1()")
-            figure(@mouseover="mostrarIndicador = false")
-              .indicador--click(v-if="mostrarIndicador")
-              <img src="@/assets/curso/temas/tema2/1.png" alt="Imagen Decorativa" >
-          .col-20.pt-5.px-0.position-absolute.img-2.z-index-2
-            figure(@mouseover="mostrarIndicador = false")
-              .indicador--click(v-if="mostrarIndicador")
-              img(src="@/assets/curso/temas/tema2/2.png", alt="Imagen Decorativa").cursor-pointer(@click="toggleShowInfo2()")
-          .col-20.pt-5.px-0.position-absolute.img-3.z-index-2
-            figure(@mouseover="mostrarIndicador = false")
-              .indicador--click(v-if="mostrarIndicador")
-              img(src="@/assets/curso/temas/tema2/3.png", alt="Imagen Decorativa").cursor-pointer(@click="toggleShowInfo3()")
-          .col-20.pt-5.px-0.position-absolute.img-4.z-index-2
-            figure(@mouseover="mostrarIndicador = false")
-              .indicador--click(v-if="mostrarIndicador")
-              img(src="@/assets/curso/temas/tema2/4.png", alt="Imagen Decorativa").cursor-pointer(@click="toggleShowInfo4()")
-          .col-20.pt-5.px-0.position-absolute.img-5.z-index-2
-            figure(@mouseover="mostrarIndicador = false")
-              .indicador--click(v-if="mostrarIndicador")
-              img(src="@/assets/curso/temas/tema2/5.png", alt="Imagen Decorativa").cursor-pointer(@click="toggleShowInfo5()")
-          .col-20.pt-5.px-0.position-absolute.img-1.z-index-2.opacity-0(:class="{ 'opacity-1 ': (showInfo1==true)}").cursor-pointer(@click="toggleShowInfo1()")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        ImagenInfografica.color-secundario.mb-5
+          template(v-slot:imagen)
             figure
-              img(src="@/assets/curso/temas/tema2/1-1.png")
-          .col-20.pt-5.px-0.position-absolute.img-2.z-index-2.opacity-0(:class="{ 'opacity-1 ': (showInfo2==true)}").cursor-pointer(@click="toggleShowInfo2()")
-            figure
-              img(src="@/assets/curso/temas/tema2/2-1.png")
-          .col-20.pt-5.px-0.position-absolute.img-3.z-index-2.opacity-0(:class="{ 'opacity-1 ': (showInfo3==true)}").cursor-pointer(@click="toggleShowInfo3()")
-            figure
-              img(src="@/assets/curso/temas/tema2/3-1.png")
-          .col-20.pt-5.px-0.position-absolute.img-4.z-index-2.opacity-0(:class="{ 'opacity-1 ': (showInfo4==true)}").cursor-pointer(@click="toggleShowInfo4()")
-            figure
-              img(src="@/assets/curso/temas/tema2/4-1.png")
-          .col-20.pt-5.px-0.position-absolute.img-5.z-index-2.opacity-0(:class="{ 'opacity-1 ': (showInfo5==true)}").cursor-pointer(@click="toggleShowInfo5()")
-            figure
-              img(src="@/assets/curso/temas/tema2/5-1.png")
-      .col-10.offset-1.py-4.d-block.d-lg-none(data-aos="slide-right")
-        .h4.text-center IDENTIFICACIÓN DE LAS PARTES INTERESADAS
-        LineaTiempoD.color-primario.mt-4 
-          p.text-small(numero="CL" titulo="CLIENTES") Usuario final de los servicios o productos generados por el proyecto.
-          
-          p.text-small(numero="PA" titulo="PATROCINADORES") Personas u organizaciones que invierten en el proyecto.
-          
-          p.text-small(numero="OR" titulo="ORGANIZACIÓN") Empresa ejecutante del proyecto.
-          
-          p.text-small(numero="PR" titulo="PROVEEDORES") Suministradores de productos o servicios necesarios para que el proyecto pueda desarrollarse.
-
-          p.text-small(numero="EM" titulo="EMPLEADOS") Talento humano que conforma el equipo ejecutor del proyecto.
+              img(src='@/assets/curso/temas/tema2/tema-2-25.svg', alt='Identificación de las partes interesadas: clientes: usuario final de los servicios o productos generados por el proyecto, patrocinadores: personas u organizaciones que invierten en el proyecto, organización:empresa ejecutante del proyecto, proveedores:suministradores de productos o servicios necesarios para que el proyecto pueda desarrollarse, empleados: talento que conforma el equipo ejecutor del proyecto')
+          .tarjeta.border-azul.bg-blanco.p-3(x="15.9%" y="44%" numero="CLIENTES")
+            .h5.mb-2 Clientes
+            p Usuario final de los servicios o productos generados por el proyecto.
+          .tarjeta.border-azul.bg-blanco.p-3(x="28.56%" y="69.3%" numero="PATROCINADORES")
+            .h5.mb-2 Patrocinadores
+            p Personas u organizaciones que invierten en el proyecto.
+          .tarjeta.border-azul.bg-blanco.p-3(x="50%" y="81%" numero="ORGANIZACION")
+            .h5.mb-2 Organización
+            p Empresa ejecutante del proyecto.
+          .tarjeta.border-azul.bg-blanco.p-3(x="72.8%" y="69.4%" numero="PROVEEDORES")
+            .h5.mb-2 Proveedores
+            p Suministradores de productos o servicios necesarios para que el proyecto pueda desarrollarse.
+          .tarjeta.border-azul.bg-blanco.p-3(x="84.5%" y="44%" numero="EMPLEADOS")
+            .h5.mb-2 Empleados
+            p Talento que conforma el equipo ejecutor del proyecto.
+    
     .row.mt-5
       .col-12.col-lg-7
         p El director debe realizar el seguimiento y la revisión de la información sobre estas partes interesadas y sus requisitos pertinentes, determinando los siguientes puntos:
@@ -267,7 +253,7 @@
             i.fas.fa-angle-right
             | Cómo afecta el proyecto.
         p.mt-3 Por ejemplo, qué expectativas tienen los proveedores con el proyecto:
-        ul.lista-ul.mt-3
+        ul.lista-ul.acento-contenido.mt-3
           li 
             i.fas.fa-angle-right
             | Pedidos claros.
@@ -289,6 +275,13 @@ export default {
   name: 'Tema2',
   data: () => ({
     // variables de vue
+    mostrarIndicador: true,
+    indicadorTarjetaFlip: true,
+    showInfo1: false,
+    showInfo2: false,
+    showInfo3: false,
+    showInfo4: false,
+    showInfo5: false,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -297,6 +290,23 @@ export default {
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    toggleShowInfo1() {
+      this.showInfo1 = !this.showInfo1
+    },
+    toggleShowInfo2() {
+      this.showInfo2 = !this.showInfo2
+    },
+    toggleShowInfo3() {
+      this.showInfo3 = !this.showInfo3
+    },
+    toggleShowInfo4() {
+      this.showInfo4 = !this.showInfo4
+    },
+    toggleShowInfo5() {
+      this.showInfo5 = !this.showInfo5
+    },
   },
 }
 </script>

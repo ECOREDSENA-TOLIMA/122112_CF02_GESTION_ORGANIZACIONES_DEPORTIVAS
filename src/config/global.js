@@ -307,9 +307,30 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor metodológico y pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+        },
+        {
+          nombre: 'Tatiana Cristina Vargas ',
+          cargo: 'Instructora ',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Paola Andrea Quintero Aguilar',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Bogotá',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Revisor Metodológico y Pedagógico',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Darío González ',
+          cargo: 'Corrección de estilo',
+          centro: 'Centro Agropecuario La Granja - Regional Tolima',
         },
       ],
     },
@@ -317,24 +338,76 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Francisco José Lizcano Reyes',
+          cargo: 'Responsable del equipo',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Leyson Fabian Castaño Perez',
+          cargo: 'Soporte organizacional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Luis Fernando Sarmiento Betancourth',
+          cargo: 'Diseño web',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Adriana Marcela Suárez Eljure ',
+          cargo: 'Producción audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Andrés Felipe Herrera Roldan',
+          cargo: 'Producción audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Producción audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Gilberto Junior Rodriguez Rodriguez',
+          cargo: 'Producción audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'José Jaime Luis Tang Pinzón',
+          cargo: 'Producción audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Ricardo Vásquez Arroyave ',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Caceres ',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+        },
+        {
+          nombre: 'Zuleidy Maria Ruiz Torres',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+        },
+        {
+          nombre: 'Lizeth Karina Manchego Suárez',
+          cargo: 'Desarrollo front-end',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+        },
+        {
+          nombre: 'Yenny Patricia Ulloa Villamizar',
+          cargo: 'Validación de diseño y contenido',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
         },
       ],
     },

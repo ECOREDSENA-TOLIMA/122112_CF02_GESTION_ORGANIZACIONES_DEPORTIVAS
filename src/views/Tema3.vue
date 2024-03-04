@@ -258,7 +258,7 @@
     .row.mt-5
       .col-10.col-lg-8.offset-1.offset-lg-2
         figure
-          img(src="@/assets/curso/temas/tema3/tema-3-22.png", alt="Texto que describa la imagen")
+          img(src="@/assets/curso/temas/tema3/tema-3-22.svg", alt="Texto que describa la imagen")
     .row.mt-5
       .col-5.align-self-center.d-none.d-lg-block
         figure
@@ -374,13 +374,13 @@ export default {
     // variables de vue
     datosSlyder: [
       {
-        titulo: 'Definición de actividades ',
+        titulo: 'Definición de actividades',
         texto:
           'Identificar las acciones que se deben realizar para llevar a cabo los entregables del proyecto.',
         imagen: require('@/assets/curso/temas/tema3/tema-3-7.png'),
       },
       {
-        titulo: 'Secuencia lógica de actividades  ',
+        titulo: 'Secuencia lógica de actividades',
         texto:
           'Establecer las relaciones entre las actividades del proyecto y definir una secuencia lógica para el desarrollo eficiente de las actividades.',
         imagen: require('@/assets/curso/temas/tema3/tema-3-8.png'),

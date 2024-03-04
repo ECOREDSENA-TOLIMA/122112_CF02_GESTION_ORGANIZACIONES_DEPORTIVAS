@@ -71,7 +71,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/tema-1-7.png', alt='Imagen decorativa')
 
-          div(x="4.2%" y="57.2%" tooltip="Rasgos y características" numero="")
+          div(x="5.1%" y="57.1%" tooltip="Rasgos y características" numero="")
             
             h3.text-center.position-absolute(style="top: -33px; left: 40%;") Rasgos y características
             .row
@@ -82,7 +82,7 @@
                 p Productos intangibles: el valor generado viene dado por la propiedad intelectual.
                 p.mt-4 #[strong Ejemplo:] Un software.
 
-          div(x="30.9%" y="7.8%" tooltip="Rasgos y características" numero="")
+          div(x="31.2%" y="7.9%" tooltip="Rasgos y características" numero="")
             h3.text-center.position-absolute(style="top: -33px; left: 40%;") Rasgos y características
             .row
               .col-6.border-naranja.rounded-20.p-4.w-47.ml-3
@@ -90,7 +90,7 @@
               .col-6.border-naranja.rounded-20.p-4.w-47.ml-3
                 p Trabajo intelectual: requiere esfuerzo creativo.
           
-          div(x="68.6%" y="7.8%" tooltip="Rasgos y características" numero="")
+          div(x="68.2%" y="8%" tooltip="Rasgos y características" numero="")
             h3.text-center.position-absolute(style="top: -33px; left: 40%;") Rasgos y características
             .row
               .col-6.border-naranja.rounded-20.p-4.w-47.ml-3
@@ -100,7 +100,7 @@
                 .h4 Proyectos públicos o sociales:
                 p.mt-1 Buscan impactar la calidad de vida de la población, promovidos por el Estado, ONG y políticas sociales de las empresas.
           
-          div(x="95.2%" y="57.2%" tooltip="Rasgos y características" numero="")
+          div(x="94.3%" y="57.2%" tooltip="Rasgos y características" numero="")
             h3.text-center.position-absolute(style="top: -33px; left: 40%;") Rasgos y características
             .row
               .col-6.border-naranja.rounded-20.p-4.w-47.ml-3
