@@ -49,7 +49,7 @@
       .col-5.col-lg-2.bg-azul-claro.rounded-15.text-white.text-center.p-0.ml-3
         .row.mx-0.bg-primario.py-2.rounded-15-top  
           .h5.mb-0 Demanda
-          .h5.mb-0 del mercado:
+          .h5.mb-0 del mercado
         .row.mx-0
           figure.mt-3
             img(src="@/assets/curso/temas/tema2/tema-2-5.png", alt="Imagen Decorativa").margin-0-auto
@@ -57,15 +57,15 @@
       .col-5.col-lg-2.bg-azul-claro.rounded-15.text-white.text-center.p-0.ml-3
         .row.mx-0.bg-primario.py-2.rounded-15-top  
           .h5.mb-0 Necesidad de la 
-          .h5.mb-0 organización:
+          .h5.mb-0 organización
         .row.mx-0
           figure.mt-3
             img(src="@/assets/curso/temas/tema2/tema-2-6.png", alt="Imagen Decorativa").margin-0-auto
-          p.mt-4.p-0.text-small.pb-3.px-2 Aplicación de un software, implementar un programa. 
+          p.mt-4.p-0.text-small.pb-3.px-2 Aplicación de un #[i software], implementar un programa. 
       .col-5.col-lg-2.mt-3.mt-lg-0.bg-azul-claro.rounded-15.text-white.text-center.p-0.ml-3
         .row.mx-0.bg-primario.py-2.rounded-15-top  
           .h5.mb-0 Requerimientos de 
-          .h5.mb-0 los clientes:
+          .h5.mb-0 los clientes
         .row.mx-0
           figure.mt-3
             img(src="@/assets/curso/temas/tema2/tema-2-7.png", alt="Imagen Decorativa").margin-0-auto
@@ -73,7 +73,7 @@
       .col-5.col-lg-2.mt-3.mt-lg-0.bg-azul-claro.rounded-15.text-white.text-center.p-0.ml-3
         .row.mx-0.bg-primario.py-2.rounded-15-top  
           .h5.mb-0 Avances
-          .h5.mb-0 tecnológicos:
+          .h5.mb-0 tecnológicos
         .row.mx-0
           figure.mt-3
             img(src="@/assets/curso/temas/tema2/tema-2-8.png", alt="Imagen Decorativa").margin-0-auto
@@ -81,7 +81,7 @@
       .col-5.col-lg-2.mt-3.mt-lg-0.bg-azul-claro.rounded-15.text-white.text-center.p-0.mx-lg-3.offset-3.offset-lg-0
         .row.mx-0.bg-primario.py-2.rounded-15-top  
           .h5.mb-0 Demanda
-          .h5.mb-0 Social:
+          .h5.mb-0 Social
         .row.mx-0
           figure.mt-3
             img(src="@/assets/curso/temas/tema2/tema-2-9.png", alt="Imagen Decorativa").margin-0-auto
@@ -133,37 +133,37 @@
     .row.mt-5.mb-4(data-aos="slide-right")
       .col-10.col-lg-8.offset-1.offset-lg-2
         LineaTiempoD.color-primario
-          .row(numero="1" titulo="Propósito y Justificación")
+          .row(numero="1" titulo="Propósito y Justificación del proyecto")
             .col-2.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema2/tema-2-13.svg", alt="Imagen Decorativa").w-75.margin-0-auto
             .col-12.col-lg-10.align-self-center
-              p.text-small Del proyecto. El propósito y las justificaciones pueden ser estratégicas, económicas, ventajas competitivas, cumplimientos legales, etc.
+              p.text-small El propósito y las justificaciones pueden ser estratégicas, económicas, ventajas competitivas, cumplimientos legales, etc.
 
-          .row(numero="2" titulo="Alcance")
+          .row(numero="2" titulo="Alcance del proyecto")
             .col-2.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema2/tema-2-14.svg", alt="Imagen Decorativa").w-75.margin-0-auto
             .col-12.col-lg-10.align-self-center
-              p.text-small Del proyecto. Un proyecto es finito en tiempo, coste y recursos, y, por lo tanto, el alcance tiene que estar claramente acotado. 
-          .row(numero="3" titulo="Objetivos")
+              p.text-small Un proyecto es finito en tiempo, coste y recursos, y, por lo tanto, el alcance tiene que estar claramente acotado. 
+          .row(numero="3" titulo="Objetivos a alto nivel")
             .col-2.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema2/tema-2-15.svg", alt="Imagen Decorativa").w-75.margin-0-auto
             .col-12.col-lg-10.align-self-center
-              p.text-small A alto nivel. De ser posible, deberían ser medibles y contrastables, para poder verificar si se han cumplido o no cuando se cierre el proyecto.
+              p.text-small De ser posible, deberían ser medibles y contrastables, para poder verificar si se han cumplido o no cuando se cierre el proyecto.
           .row(numero="4" titulo="Requisitos de alto nivel")
             .col-2.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema2/tema-2-16.svg", alt="Imagen Decorativa").w-75.margin-0-auto
             .col-12.col-lg-10.align-self-center
               p.text-small Sobre todo, aquellos que impactan considerablemente en la duración, el presupuesto, los riesgos, etc. Lógicamente, estarán estrechamente relacionados con el alcance, los objetivos y el propósito del proyecto. Comentar que, si se trata de un proyecto informático, debería tener presentes todas las interoperabilidades o integraciones previstas entre sistemas de información, ya que involucran nuevos actores, suelen ser complejas y muy costosas.
-          .row(numero="5" titulo="Asunciones y restricciones ")
+          .row(numero="5" titulo="Asunciones y restricciones en el contexto del proyecto")
             .col-2.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema2/tema-2-17.svg", alt="Imagen Decorativa").w-75.margin-0-auto
             .col-12.col-lg-10.align-self-center
-              p.text-small En el contexto del proyecto. Por ejemplo, se puede asumir que es necesario ajustarse a la metodología de la organización, estándares, una determinada infraestructura, etc. 
+              p.text-small Por ejemplo, se puede asumir que es necesario ajustarse a la metodología de la organización, estándares, una determinada infraestructura, etc. 
           .row(numero="6" titulo="Riesgos a alto nivel")
             .col-2.d-none.d-lg-block
               figure
@@ -220,7 +220,8 @@
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema2/tema-2-25.svg', alt='Identificación de las partes interesadas: clientes: usuario final de los servicios o productos generados por el proyecto, patrocinadores: personas u organizaciones que invierten en el proyecto, organización:empresa ejecutante del proyecto, proveedores:suministradores de productos o servicios necesarios para que el proyecto pueda desarrollarse, empleados: talento que conforma el equipo ejecutor del proyecto')
-          .tarjeta.border-azul.bg-blanco.p-3(x="15.9%" y="44%" numero="CLIENTES")
+          .tarjeta.border-azul.bg-blanco.p-3(x="15.9%" y="44%" numero="CLIENTES")(@mouseover="mostrarIndicador = false")
+            .indicador--click(v-if="mostrarIndicador")
             .h5.mb-2 Clientes
             p Usuario final de los servicios o productos generados por el proyecto.
           .tarjeta.border-azul.bg-blanco.p-3(x="28.56%" y="69.3%" numero="PATROCINADORES")

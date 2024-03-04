@@ -295,7 +295,7 @@
             figure
               img(src="@/assets/curso/temas/tema3/tema-3-26.svg", alt="Texto que describa la imagen").px-lg-2.px-xl-4
           .col-12.col-lg-10.pl-4
-            .h4 Riesgos que afecten el desarrollo de los servicios o productos finales del proyecto:
+            .h4 Riesgos que afecten el desarrollo de los servicios o productos finales del proyecto
             p.mt-3 Cambios en políticas estatales, factores ambientales, factores climáticos, pandemia, paros, huelgas, resistencia al cambio de un grupo poblacional, entre otros.
       .col-10.offset-1.box-shadow.rounded-20.mt-5(data-aos="slide-right")
         .row.p-4
@@ -303,7 +303,7 @@
             figure
               img(src="@/assets/curso/temas/tema3/tema-3-27.svg", alt="Texto que describa la imagen").px-lg-2.px-xl-4
           .col-12.col-lg-10.pl-4
-            .h4 Riesgos que afecten los equipos, máquinas y herramientas empleadas en el proyecto: 
+            .h4 Riesgos que afecten los equipos, máquinas y herramientas empleadas en el proyecto
             p.mt-3 Virus, daños del software que impliquen pérdida de la información, daño, deterioro del equipo que implique pérdida de tiempo y/o dinero, entre otros.
       .col-10.offset-1.box-shadow.rounded-20.mt-5(data-aos="slide-left")
         .row.p-4
@@ -311,7 +311,7 @@
             figure
               img(src="@/assets/curso/temas/tema3/tema-3-28.svg", alt="Texto que describa la imagen").px-lg-2.px-xl-4
           .col-12.col-lg-10.pl-4
-            .h4 Riesgos que afecten el talento humano y/o usuario del proyecto: 
+            .h4 Riesgos que afecten el talento humano y/o usuario del proyecto
             p.mt-3 Accidentes, enfermedades, e incluso la muerte asociada por actividades relacionadas con el proyecto. 
     p.mt-5 En la fase de planeación del proyecto, se diseña y documenta el plan de gestión del riesgo. Se establecen las estrategias, el método para la identificación, análisis de riesgos, desarrollo del plan, monitoreo, control y evaluación. 
     separador.mt-5
@@ -329,9 +329,9 @@
     .row.mt-0
       .col-10.offset-1
         .titulo-sexto.color-acento-contenido.mt-5
-          h5 Tabla 1
+          h5 Tabla 1.
           br
-          span Proceso de gestión de adquisiciones
+          span #[i Proceso de gestión de adquisiciones]
         .tabla-a.color-acento-contenido.mt-5 
           table
             caption.mt-3 Nota SENA (2021)

@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Estructuración de proyectos y propuesta de mercadeo para el sector del deporte.',
+      'Estructuración de proyectos y propuesta de mercadeo para el sector del deporte',
     descripcionCurso:
       'Los temas tratados en este componente de formación permiten reconocer aspectos clave inherentes a la estructuración de proyectos y propuestas aplicables al sector deporte.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
@@ -256,12 +256,12 @@ export default {
   referencias: [
     {
       referencia:
-        'Cajal, A. (2020). Portafolio de servicios: tipos, partes y ejemplos. Lifeder.',
+        'Cajal, A. (2020). Portafolio de servicios: tipos, partes y ejemplos. Lifeder.',
       link: 'https://www.lifeder.com/portafolio-de-servicios/.',
     },
     {
       referencia:
-        'ESAN. (2016). El Marketing y sus definiciones. Conexión ESAN.',
+        'ESAN. (2016). El <em>Marketing</em> y sus definiciones. Conexión ESAN.',
       link:
         'https://www.esan.edu.pe/apuntes-empresariales/2016/05/el-marketing-y-sus-definiciones/',
     },

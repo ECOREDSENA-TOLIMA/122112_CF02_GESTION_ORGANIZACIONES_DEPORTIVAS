@@ -139,7 +139,7 @@
     .row.mt-5.rounded-15.bg-amarillo-claro.p-5.zoom-in(data-aos="fade-down")
       .col-12.col-lg-8
         p El portafolio de servicios es un documento en el cual se detalla, de forma clara y concisa, la información básica de una empresa, organización o individuo, y los productos o servicios que este o esta ofrece. Su función principal es dar a conocer a su posible cliente los productos o servicios que se ofrecen, y así convencer al cliente de las ventajas con que se cuenta al contratar con la empresa / organización / persona. También es una excelente herramienta de mercadeo y publicidad.
-        p.mt-3 La información que se presente en el portafolio de servicios debe presentarse de una forma atractiva, donde se proyecte lo que identifique a la empresa / organización / persona, ya que no solo se da a conocer lo que se vende, también se da a conocer la calidad del trabajo que se realiza
+        p.mt-3 La información que se presente en el portafolio de servicios debe presentarse de una forma atractiva, donde se proyecte lo que identifique a la empresa / organización / persona, ya que no solo se da a conocer lo que se vende, también se da a conocer la calidad del trabajo que se realiza.
         .h4.mt-3 Características del portafolio de servicios
         p.mt-3 Un portafolio de servicios debe ser directo y competitivo, dando respuesta ante cualquier duda que tuviese el cliente; debe ser atractivo y con datos claros en todo momento.
         p.mt-3 Para crear un buen portafolio, es fundamental tener en cuenta un diseño que refleje la imagen de la empresa / organización / persona; si el portafolio es digital, es importante añadir diferentes recursos interactivos, tales como videos o animaciones, que mejoren la experiencia.

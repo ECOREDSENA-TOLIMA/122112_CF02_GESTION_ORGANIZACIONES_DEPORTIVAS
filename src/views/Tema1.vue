@@ -80,7 +80,7 @@
                 p.mt-4 #[strong Ejemplo:] un edificio.
               .col-6.border-naranja.rounded-20.p-4.w-47.ml-3
                 p Productos intangibles: el valor generado viene dado por la propiedad intelectual.
-                p.mt-4 #[strong Ejemplo:] Un software.
+                p.mt-4 #[strong Ejemplo:] un #[i software].
 
           div(x="31.2%" y="7.9%" tooltip="Rasgos y características" numero="")
             h3.text-center.position-absolute(style="top: -33px; left: 40%;") Rasgos y características
@@ -115,7 +115,7 @@
       #t_1_2.h2 1.2 Concepto y procesos de la gestión de proyectos
     .row.mt-5.rounded-15.bg-amarillo-claro.p-5.zoom-in(data-aos="flip-left")
       .col-12.col-lg-8
-        p La gestión de proyectos, también denominada dirección de proyectos, administración de proyectos, gerencia de proyectos o project management, se entiende como los mecanismos necesarios para la implementación y aplicabilidad de los proyectos.
+        p La gestión de proyectos, también denominada dirección de proyectos, administración de proyectos, gerencia de proyectos o #[i project management], se entiende como los mecanismos necesarios para la implementación y aplicabilidad de los proyectos.
         p.mt-3 La gestión de proyectos es la aplicación de conocimientos, habilidades, herramientas y técnicas a las actividades del proyecto para cumplir los requisitos del mismo.
         p.mt-3 También se define la gestión de proyectos como la planificación, la organización, el monitoreo y el control de todos los aspectos del proyecto y la motivación de todos los involucrados para el logro de los objetivos, con seguridad y dentro de los criterios acordados de tiempo, costo y desempeño.
         p.mt-3 El éxito de un proyecto radica en tener la capacidad de satisfacer los requerimientos de las partes interesadas y obtener los resultados esperados, siendo eficiente en el tiempo y con los recursos.
