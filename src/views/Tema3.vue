@@ -233,9 +233,9 @@
     
     .titulo-segundo.mt-5.color-acento-contenido
       #t_3_6.h2  3.6  Plan de gestión de comunicaciones  
-    .row.mt-3
+    .row.mt-3.mb-5
       .col-12.col-lg-8.align-self-center
-        p La gestión de las comunicaciones, según la PMBOK (2003), incluye los procesos necesarios para garantizar la adecuada y oportuna recopilación, distribución, almacenamiento, recuperación y disposición final de la información del proyecto.
+        p La gestión de las comunicaciones, según la PMBOK (2013), “incluye los procesos necesarios para garantizar la adecuada y oportuna recopilación, distribución, almacenamiento, recuperación y disposición final de la información del proyecto”.
         p.mt-3 La comunicación eficaz permite un puente entre las diferentes partes interesadas en el proyecto, suministrar la información requerida, a la persona requerida, en el momento oportuno, empleando el medio, formato y técnica más apropiados.
         p.mt-3 En la gestión de comunicaciones del proyecto, es importante tener en cuenta:
         ul.lista-ul.mt-3.acento-contenido
@@ -255,10 +255,19 @@
       .col-4.d-none.d-lg-block.align-self-center
         figure
           img(src="@/assets/curso/temas/tema3/tema-3-21.svg", alt="Texto que describa la imagen").margin-0-auto.floating
-    .row.mt-5
-      .col-10.col-lg-8.offset-1.offset-lg-2
+    
+    .titulo-sexto.color-acento-contenido.offset-1
+      h5 Figura 1.
+      span  #[i  Adecuada gestión de la comunicación]
+    
+    .row.justify-content-center.mb-5
+      .col-md-8.desktop 
         figure
-          img(src="@/assets/curso/temas/tema3/tema-3-22.svg", alt="Texto que describa la imagen")
+          img(src='@/assets/curso/temas/tema3/tema-3-22.svg', alt='En la figura 1 se muestra la adecuada gestión de la comunión, en donde intervienen las actividades de captar, comunicar, informar y sincronizar la información para que sea exitosa.')
+      .col-md-6.movil
+        figure
+          img(src='@/assets/curso/temas/tema3/tema-3-22.svg', alt='En la figura 1 se muestra la adecuada gestión de la comunión, en donde intervienen las actividades de captar, comunicar, informar y sincronizar la información para que sea exitosa.')
+
     .row.mt-5
       .col-5.align-self-center.d-none.d-lg-block
         figure

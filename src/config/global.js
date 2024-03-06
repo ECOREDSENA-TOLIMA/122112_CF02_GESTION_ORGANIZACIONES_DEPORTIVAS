@@ -267,7 +267,7 @@ export default {
     },
     {
       referencia:
-        'International Project Management Association [IPMA]. (2006). ICB Competence Baseline Version 3.0. ',
+        'International Project Management Association [IPMA]. (2006). ICB Competence Baseline Version 3.0.',
       link: '',
     },
     {
@@ -285,6 +285,23 @@ export default {
       referencia:
         'Project Management Institute [PMI]. (2008). Organizational Project Management Maturity Model.',
       link: '',
+    },
+    {
+      referencia:
+        'Project Management Institute. (2013). Guía de los fundamentos para la dirección de proyectos (Guía del PMBOK) (5ta ed.).',
+      link:
+        'https://sistemastic.files.wordpress.com/2017/07/guia_de_los_fundamentos_para_la_direccion_de_proyectos-pmbok_5ta_edicion_espanol.pdf',
+    },
+    {
+      referencia:
+        'International Organization for Standardization. (2018). ISO 31000:2018, Gestión del riesgo. Principios y directrices.',
+      link:
+        'https://www.ramajudicial.gov.co/documents/5454330/14491339/Norma.ISO.31000.2018.Espanol.pdf/cb482b2c-afd9-4699-b409-0732a5261486',
+    },
+    {
+      referencia:
+        'Plepso, C. A. (2015, 8 de agosto). Estudios de mercados y de opinión pública',
+      link: 'https://plepso.blogspot.com/2015/08/marketing-deportivo.html',
     },
   ],
   creditos: [
