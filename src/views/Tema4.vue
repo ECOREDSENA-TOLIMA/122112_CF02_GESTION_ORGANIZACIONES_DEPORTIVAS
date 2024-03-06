@@ -58,9 +58,10 @@
     p.mt-5 Es importante, dentro de esta contextualización, tener claridad sobre conceptos como:
     .row.justify-content-center(data-aos="fade-down").mt-5.text-white.px-5
       .col-10.col-md-6
-        .row.px-2.pt-2.h-100
+        .row.px-2.pt-2.h-100(@mouseover="mostrarIndicador = false")
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
+              .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/curso/temas/tema4/tema-4-4.png", alt="Imagen decorativa")
             .text.p-lg-3.p-4
               .row.text-center.px-1.pt-1.mt-md-0.pt-md-0.mt-lg-4.mt-xl-5
@@ -68,9 +69,10 @@
                 p.mt-3.small-text Es un conjunto de características, funciones, beneficios y usos, que se puede intercambiar y que satisface una necesidad o un deseo.
 
       .col-10.col-md-6
-        .row.px-2.pt-2.h-100
+        .row.px-2.pt-2.h-100(@mouseover="mostrarIndicador = false")
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
+              .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/curso/temas/tema4/tema-4-5.png", alt="Imagen decorativa")
             .text.p-lg-3.p-4
               .row.text-center.px-1.pt-1.mt-1.mt-md-0.mt-lg-4.mt-xl-5.pt-md-0
@@ -79,9 +81,10 @@
     
     .row.justify-content-center(data-aos="fade-down").mt-3.text-white.px-5
       .col-10.col-md-6
-        .row.px-2.pt-2.h-100
+        .row.px-2.pt-2.h-100(@mouseover="mostrarIndicador = false")
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
+              .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/curso/temas/tema4/tema-4-6.png", alt="Imagen decorativa")
             .text.p-lg-3.p-4
               .row.text-center.px-1.pt-1.mt-md-0.pt-md-0.mt-lg-4.mt-xl-5
@@ -89,9 +92,10 @@
                 p.mt-3.small-text Es quien satisface su necesidad o deseo de adquirir un producto o servicio.
 
       .col-10.col-md-6
-        .row.px-2.pt-2.h-100
+        .row.px-2.pt-2.h-100(@mouseover="mostrarIndicador = false")
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
+              .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/curso/temas/tema4/tema-4-7.png", alt="Imagen decorativa")
             .text.p-lg-3.p-4
               .row.text-center.px-1.pt-1.mt-1.mt-md-0.mt-lg-4.mt-xl-5.pt-md-0
@@ -149,9 +153,10 @@
           img(src="@/assets/curso/temas/tema4/tema-4-13.svg", alt="Imagen decorativa")
     .row.justify-content-center(data-aos="fade-down").mt-5.text-white
       .col-10.col-md-6
-        .row.px-2.pt-2.h-100
+        .row.px-2.pt-2.h-100(@mouseover="mostrarIndicador = false")
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
+              .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/curso/temas/tema4/tema-4-14.png", alt="Imagen decorativa")
             .text.p-lg-3.p-4
               .row.text-center.px-1.pt-1.mt-md-0.pt-md-0.mt-lg-4.mt-xl-5
@@ -159,9 +164,10 @@
                 p.mt-3.small-text Son documentos impresos que se diseñan de diferentes formas, pueden ser dípticos y trípticos, cuando la información es breve y concisa, o pueden ser un manual de publicidad, en caso de que se desee explicar los servicios de manera más detallada.
                 
       .col-10.col-md-6
-        .row.px-2.pt-2.h-100
+        .row.px-2.pt-2.h-100(@mouseover="mostrarIndicador = false")
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
+              .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/curso/temas/tema4/tema-4-15.png", alt="Imagen decorativa")
             .text.p-lg-3.p-4
               .row.text-center.px-1.pt-1.mt-1.mt-md-0.mt-lg-4.mt-xl-5.pt-md-0
@@ -201,43 +207,43 @@
                 img(src="@/assets/curso/temas/tema4/tema-4-19.svg", alt="Imagen decorativa").w-75.margin-0-auto
             .col-12.col-lg-9.align-self-center
               p.text-small La misión es la razón por la cual la empresa existe, el motor que la mueve. Es decir, es la justificación del accionar de la empresa. En este sentido, la misión se relaciona con los objetivos. Por su parte, la visión es la proyección que la empresa tiene de sí misma en un futuro, lo que espera cumplir a largo plazo, es decir, cómo se ve en 10, 15, 20 años.
-          .row(numero="3" titulo="Certificaciones")
+          .row(numero="4" titulo="Certificaciones")
             .col-3.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-20.svg", alt="Imagen decorativa").w-75.margin-0-auto
             .col-12.col-lg-9.align-self-center
               p.text-small En este apartado se incluyen los reconocimientos que se le han otorgado a la empresa en su trayectoria. Este apartado es de vital importancia, puesto que revela la calidad de la organización.
-          .row(numero="3" titulo="Sociedades")
+          .row(numero="5" titulo="Sociedades")
             .col-3.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-21.svg", alt="Imagen decorativa").w-75.margin-0-auto
             .col-12.col-lg-9.align-self-center
               p.text-small En esta parte del portafolio, se indican las relaciones que la empresa tiene con otras organizaciones o individuos.
-          .row(numero="3" titulo="Clientes")
+          .row(numero="6" titulo="Clientes")
             .col-3.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-22.svg", alt="Imagen decorativa").w-75.margin-0-auto
             .col-12.col-lg-9.align-self-center
               p.text-small En esta parte, se muestra, a grandes rasgos, la trayectoria de la empresa, se dan a conocer los individuos o grupos que han contratado los servicios de la empresa. En algunos casos, se incluyen testimonios de los clientes que dan fe del proceder de la empresa.
-          .row(numero="3" titulo="Proveedores")
+          .row(numero="7" titulo="Proveedores")
             .col-3.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-23.svg", alt="Imagen decorativa").w-75.margin-0-auto
             .col-12.col-lg-9.align-self-center
               p.text-small En este apartado, se incluyen las organizaciones que suministran materiales para el desarrollo de los servicios que ofrece la empresa que emite el portafolio. Al igual que las certificaciones, la información sobre los proveedores revela la calidad de los servicios prestados por la empresa: si los proveedores son de confianza y de calidad, entonces es muy probable que los servicios ofrecidos también lo sean.
-          .row(numero="3" titulo="Servicios (vigentes y en desarrollo)")
+          .row(numero="8" titulo="Servicios (vigentes y en desarrollo)")
             .col-3.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-24.svg", alt="Imagen decorativa").w-75.margin-0-auto
             .col-12.col-lg-9.align-self-center
               p.text-small Este es el apartado central del portafolio, ya que se muestran los servicios que ofrece la empresa. Se debe incluir una lista detallada de los servicios, tanto los que están vigentes (es decir, los que se están ejecutando al momento de la emisión del portafolio) como los que están en desarrollo (es decir, los que se espera ejecutar en un futuro inmediato). 
-          .row(numero="3" titulo="Proyectos")
+          .row(numero="9" titulo="Proyectos")
             .col-3.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-25.svg", alt="Imagen decorativa").w-75.margin-0-auto
             .col-12.col-lg-9.align-self-center
               p.text-small En el apartado “proyectos”, se incluyen los planes y programas en los que la empresa está involucrada.
-          .row(numero="3" titulo="Información de contacto")
+          .row(numero="10" titulo="Información de contacto")
             .col-3.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-26.svg", alt="Imagen decorativa").w-75.margin-0-auto
@@ -346,6 +352,8 @@ export default {
   name: 'Tema3',
   data: () => ({
     // variables de vue
+    mostrarIndicador: true,
+    indicadorTarjetaFlip: true,
   }),
   mounted() {
     this.$nextTick(() => {

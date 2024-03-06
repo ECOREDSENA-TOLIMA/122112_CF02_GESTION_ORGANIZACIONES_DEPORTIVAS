@@ -21,24 +21,26 @@
       img(src="@/assets/curso/temas/tema3/tema-3-2.png", alt="Texto que describa la imagen")
     p.mt-5 En este proceso, se describe de forma detallada el proyecto y producto o servicio final esperado. Además, se identifican las necesidades y requerimientos de las partes interesadas y se subdividen los entregables del proyecto y el trabajo requerido para producirlos. Sus componentes son:
     .row.mt-5.text-center.text-white      
-      .col-sm-6.col-lg-4.p-1.text-center
+      .col-sm-6.col-lg-4.p-1.text-center(@mouseover="mostrarIndicador = false")
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false").box-shadow
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.p-3.d-flex           
               .row.align-self-center   
                 figure
+                  .indicador--click(v-if="mostrarIndicador")
                   img(src="@/assets/curso/temas/tema3/tema-3-3.svg", alt="Texto que describa la imagen").px-5.px-sm-3.px-xl-4.w-50.margin-0-auto.px-3
                 .h4.mt-3.px-5.px-sm-3 Requerimientos de las partes interesadas 
             .tarjeta-flip__contenido.p-3.bg-azul-claro.d-flex
               .row.pt-4.align-self-center    
                 .h4.pt-4.px-4 Requerimientos de las partes interesadas 
                 p.mt-3.pb-4.pb-xl-5.mb-4.px-5 Identificación de las necesidades de cada una de las partes interesadas.
-      .col-sm-6.col-lg-4.p-1
+      .col-sm-6.col-lg-4.p-1(@mouseover="mostrarIndicador = false")
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false").box-shadow
           .tarjeta-flip__contenedor.text-center
             .tarjeta-flip__img.p-3.d-flex           
               .row.align-self-center   
                 figure
+                  .indicador--click(v-if="mostrarIndicador")
                   img(src="@/assets/curso/temas/tema3/tema-3-4.svg", alt="Texto que describa la imagen").px-5.px-sm-3.px-xl-4.w-50.margin-0-auto.px-3
                 .h4.mt-3.px-5.px-sm-3 Definición del alcance
             .tarjeta-flip__contenido.p-3.bg-azul-claro.d-flex
@@ -51,12 +53,13 @@
                   li.mt-1 
                     i.fas.fa-angle-right
                     | Descripción del producto final del proyecto.
-      .col-sm-6.col-lg-4.offset-sm-3.offset-lg-0.p-1.text-center
+      .col-sm-6.col-lg-4.offset-sm-3.offset-lg-0.p-1.text-center(@mouseover="mostrarIndicador = false")
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false").box-shadow
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.p-3.d-flex           
               .row.align-self-center   
                 figure
+                  .indicador--click(v-if="mostrarIndicador")
                   img(src="@/assets/curso/temas/tema3/tema-3-5.svg", alt="Texto que describa la imagen").px-5.px-sm-3.px-xl-4.w-50.margin-0-auto.px-3
                 .h4.mt-3.px-5.px-sm-3 Estructura desagregada del trabajo (EDT) 
             .tarjeta-flip__contenido.p-3.bg-azul-claro.d-flex
@@ -114,9 +117,10 @@
     
     .row.justify-content-center(data-aos="fade-down").mt-5.text-white
       .col-10.col-md-6
-        .row.px-2.pt-2.h-100
+        .row.px-2.pt-2.h-100(@mouseover="mostrarIndicador = false")
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
+              .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/curso/temas/tema3/tema-3-13.png", alt="Texto que describa la imagen")
             .text.p-lg-3.p-4
               .row.text-center.px-1.pt-1.mt-md-0.pt-md-0.mt-lg-4.mt-xl-5
@@ -124,13 +128,14 @@
                 p.mt-3.small-text Valor monetario aproximado de los recursos necesarios para la ejecución de las actividades del proyecto.
 
       .col-10.col-md-6
-        .row.px-2.pt-2.h-100
+        .row.px-2.pt-2.h-100(@mouseover="mostrarIndicador = false")
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
+              .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/curso/temas/tema3/tema-3-14.png", alt="Texto que describa la imagen")
             .text.p-lg-3.p-4
-              .row.text-center.px-1.pt-1.mt-1.mt-md-0.mt-lg-4.mt-xl-5.pt-md-0
-                .h4.small-text.mt-3.mt-md-0.mt-lg-2 Determinación del presupuesto 
+              .row.text-center.px-1.pt-1.mt-1.mts.mt-md-0.mt-lg-4.mt-xl-5.pt-md-0
+                .h4.small-text.mt-3.mt-md-0.mt-lg-2.mts Determinación del presupuesto                
                 p.mt-3.small-text Estimados los costos de las actividades y de los paquetes de trabajo con base en la línea base de costos, se medirán los rendimientos en costos logrados durante el proyecto.
 
     .row.mt-5
@@ -381,6 +386,8 @@ export default {
   name: 'Tema3',
   data: () => ({
     // variables de vue
+    mostrarIndicador: true,
+    indicadorTarjetaFlip: true,
     datosSlyder: [
       {
         titulo: 'Definición de actividades',
