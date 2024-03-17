@@ -113,7 +113,7 @@
         figure
           img(src="@/assets/curso/temas/tema3/tema-3-12.svg", alt="Texto que describa la imagen").px-4.floating
       .col-12.col-lg-10
-        p Se refiere a los procesos involucrados en estimar, presupuestar y controlar los costos de modo que se complete el proyecto dentro del presupuesto aprobado. Debe tener en cuenta los requisitos de las partes interesadas para la obtención de los costos, ya que los diversos interesados medirán los costos del proyecto de diferentes maneras y en tiempos diferentes. Identificar los costos del proyecto y planificar su gestión es de gran importancia, ya que sin este componente no se podrá poner en marcha el proyecto. Observe:
+        p Se refiere a los procesos involucrados en estimar, presupuestar y controlar los costos de modo que se complete el proyecto dentro del presupuesto aprobado. Debe tener en cuenta los requisitos de las partes interesadas para la obtención de los costos, ya que los diversos interesados medirán los costos del proyecto de diferentes maneras y en tiempos diferentes. Identificar los costos del proyecto y planificar su gestión es de gran importancia, ya que sin este componente no se podrá poner en marcha el proyecto. A continuación, se presentan los aspectos a considerar para su elaboración:
     
     .row.justify-content-center(data-aos="fade-down").mt-5.text-white
       .col-10.col-md-6
@@ -210,7 +210,7 @@
           li.mt-2 
             i.fas.fa-angle-right
             | Debe contemplar planes de crecimiento y formación.
-    p.mt-5 Para alcanzar buenos resultados que apunten al logro de los objetivos del proyecto, se deben desarrollar tres principales tareas.
+    p.mt-5 Para alcanzar buenos resultados que apunten al logro de los objetivos del proyecto, se deben desarrollar tres principales tareas. Para dar apertura a los 3 ítems que continúan:
     .row.mt-5(data-aos="fade-up")
       .col-10.col-lg-8.offset-1.offset-lg-2
         LineaTiempoD.color-primario
@@ -256,7 +256,7 @@
           li.mt-2 
             i.fas.fa-angle-right
             | Cómo se debe presentar la información.
-        p.mt-3 El plan de gestión de comunicaciones se establece para informar aspectos inherentes al proyecto a las diferentes partes interesadas. Siendo así, observe lo siguiente:
+        p.mt-3 El plan de gestión de comunicaciones se establece para informar aspectos inherentes al proyecto a las diferentes partes interesadas. A continuación, se presenta el proceso de gestión de comunicación:
       .col-4.d-none.d-lg-block.align-self-center
         figure
           img(src="@/assets/curso/temas/tema3/tema-3-21.svg", alt="Texto que describa la imagen").margin-0-auto.floating
@@ -271,7 +271,7 @@
           img(src='@/assets/curso/temas/tema3/tema-3-22.svg', alt='En la figura 1 se muestra la adecuada gestión de la comunión, en donde intervienen las actividades de captar, comunicar, informar y sincronizar la información para que sea exitosa.')
       .col-md-6.movil
         figure
-          img(src='@/assets/curso/temas/tema3/tema-3-22.svg', alt='En la figura 1 se muestra la adecuada gestión de la comunión, en donde intervienen las actividades de captar, comunicar, informar y sincronizar la información para que sea exitosa.')
+          img(src='@/assets/curso/temas/tema3/tema-3-22_1.svg', alt='En la figura 1 se muestra la adecuada gestión de la comunión, en donde intervienen las actividades de captar, comunicar, informar y sincronizar la información para que sea exitosa.')
 
     .row.mt-5
       .col-5.align-self-center.d-none.d-lg-block
@@ -318,7 +318,7 @@
               img(src="@/assets/curso/temas/tema3/tema-3-27.svg", alt="Texto que describa la imagen").px-lg-2.px-xl-4
           .col-12.col-lg-10.pl-4
             .h4 Riesgos que afecten los equipos, máquinas y herramientas empleadas en el proyecto
-            p.mt-3 Virus, daños del software que impliquen pérdida de la información, daño, deterioro del equipo que implique pérdida de tiempo y/o dinero, entre otros.
+            p.mt-3 Virus, daños del #[i software] que impliquen pérdida de la información, daño, deterioro del equipo que implique pérdida de tiempo y/o dinero, entre otros.
       .col-10.offset-1.box-shadow.rounded-20.mt-5(data-aos="slide-left")
         .row.p-4
           .col-2.d-none.d-lg-flex.border-azul-der.align-items-center
@@ -374,7 +374,7 @@
                 td Se da por finalizada la relación contractual.
     .row.mt-5
       .col-12.col-lg-10
-        p Recapitulando, es así como se han identificado los elementos conceptuales de la gestión de proyectos, el grupo de inicio del proyecto con sus principales acciones y los diversos grupos de planificación del proyecto en conjugación con sus diferentes actividades y tareas. Todo lo anterior, apuntando más hacia la gestión interna, con los colaboradores e integrantes del proyecto. Ahora, se dará inicio al tema de la formulación de la propuesta de mercado, es decir, la gestión externa del proyecto, la cual tiene como objetivo darle al cliente una idea clara, concisa y transparente de cómo un negocio en particular puede ser relevante para él. Observe.
+        p Recapitulando, es así como se han identificado los elementos conceptuales de la gestión de proyectos, el grupo de inicio del proyecto con sus principales acciones y los diversos grupos de planificación del proyecto en conjugación con sus diferentes actividades y tareas. Todo lo anterior, apuntando más hacia la gestión interna, con los colaboradores e integrantes del proyecto. Ahora, se dará inicio al tema de la formulación de la propuesta de mercado, es decir, la gestión externa del proyecto, la cual tiene como objetivo darle al cliente una idea clara, concisa y transparente de cómo un negocio en particular puede ser relevante para él.
       .col-4.col-lg-2.d-none.d-lg-block.align-self-center
         figure
           img(src="@/assets/curso/temas/tema3/tema-3-30.svg", alt="Texto que describa la imagen").px-4.floating

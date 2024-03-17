@@ -103,7 +103,7 @@
                 p.mt-3.small-text Se refiere a la segmentación demográfica de las personas para determinar la población objeto; esta, a su vez, se refiere a los tipos de consumidores o el público en el cual se quiere centrar la empresa con su producto o servicio. Para realizar una segmentación de la población, se tienen variables como: edad, sexo, ingresos, vida familiar, nivel educativo, raza, ocupación, nación, etc. Esta segmentación permite crear los perfiles de los consumidores.
     .row.mt-5
       .col-12.col-lg-10
-        p La segmentación en el mercado es la identificación de grupos objeto a través de varias etapas: Observación del mercado, división del mercado, desarrollo del mercado. Segmentar la población posibilita comprender mejor al posible cliente, teniendo como base los siguientes aspectos: demografía, rasgos comportamentales, conocimientos técnicos, beneficios, entre otros. Existen varios tipos de segmentación de mercado:
+        p La segmentación en el mercado es la identificación de grupos objeto a través de varias etapas: observación del mercado, división del mercado, desarrollo del mercado. Segmentar la población posibilita comprender mejor al posible cliente, teniendo como base los siguientes aspectos: demografía, rasgos comportamentales, conocimientos técnicos, beneficios, entre otros. Existen varios tipos de segmentación de mercado:
       .col-4.col-lg-2.d-none.d-lg-block.align-self-center
         figure
           img(src="@/assets/curso/temas/tema4/tema-4-8.svg", alt="Imagen decorativa").px-4.floating
@@ -183,7 +183,7 @@
         figure
           img(src="@/assets/curso/temas/tema4/tema-4-16.svg", alt="Imagen decorativa").px-4.floating    
       .col-12.col-lg-10
-        p El portafolio de servicios debe incluir diversos ítems, los cuales deben dar cuenta, de manera fácil y clara, de los aspectos más relevantes de la empresa / organización / persona, y generar empatía con el cliente. Las partes fundamentales de un portafolio de servicios son: la presentación, los objetivos, la misión y la visión, certificaciones, sociedades, clientes, proveedores, servicios, proyectos, e información de contacto. Observe:
+        p El portafolio de servicios debe incluir diversos ítems, los cuales deben dar cuenta, de manera fácil y clara, de los aspectos más relevantes de la empresa / organización / persona, y generar empatía con el cliente. Las partes fundamentales de un portafolio de servicios son: la presentación, los objetivos, la misión y la visión, certificaciones, sociedades, clientes, proveedores, servicios, proyectos, e información de contacto. A contnuación, se describe cada una de ellas:
     .row.mt-5
       .col-10.col-lg-8.offset-1.offset-lg-2(data-aos="fade-left")
         LineaTiempoD.color-primario
@@ -289,7 +289,7 @@
           img(src="@/assets/curso/temas/tema4/tema-4-29.svg", alt="Imagen decorativa")
       .col-12.col-lg-8
         p Son muchos los retos que enfrentan las empresas actuales, ya que los clientes tienen acceso a una gran cantidad de ofertas de servicios, todo gracias a una economía globalizada y a los continuos avances tecnológicos. Para las organizaciones es cada vez más fácil ofertar sus servicios, pero, asimismo, tienen cada vez más competencia. Además, el cliente tiene la posibilidad de escoger servicios a su medida, con mayores garantías en materia de calidad y oportunidad. Esto implica que las organizaciones sean cada vez más competitivas, y allí es donde el mercadeo deportivo marca diferencia de una empresa a otra.
-        .h4.mt-3 Concepto de mercadeo deportivo
+        .h4.mt-3 Estrategias de mercadeo deportivo
         p.mt-3 Al momento de estructurar el proceso de mercadeo deportivo en la organización, es importante establecer una estrategia que alinee los esfuerzos hacia la estrategia organizacional.
         p.mt-4 A continuación, se describen algunas estrategias de mercadeo deportivo: 
       .col-10.offset-1

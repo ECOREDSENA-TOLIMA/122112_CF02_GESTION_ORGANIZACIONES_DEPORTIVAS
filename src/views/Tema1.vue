@@ -65,13 +65,14 @@
        .col-12
         .titulo-quinto.color-acento-contenido.mt-5
           h4 Tipos de proyectos
-    .row.mt-5(data-aos="slide-up")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10.desktop(data-aos="slide-up")
         ImagenInfograficaB.color-primario.mb-5
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema1/tema-1-7.png', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/tema1/tema-1-7.svg', alt='')
 
-          div(x="5.1%" y="57.1%" tooltip="Rasgos y características" numero="")
+          div(x="4.3%" y="57.1%" tooltip="Rasgos y características" numero="")
             
             h3.text-center.position-absolute(style="top: -33px; left: 40%;") Rasgos y características
             .row
@@ -82,7 +83,7 @@
                 p Productos intangibles: el valor generado viene dado por la propiedad intelectual.
                 p.mt-4 #[strong Ejemplo:] un #[i software].
 
-          div(x="31.2%" y="7.9%" tooltip="Rasgos y características" numero="")
+          div(x="31%" y="7.9%" tooltip="Rasgos y características" numero="")
             h3.text-center.position-absolute(style="top: -33px; left: 40%;") Rasgos y características
             .row
               .col-6.border-naranja.rounded-20.p-4.w-47.ml-3
@@ -90,7 +91,7 @@
               .col-6.border-naranja.rounded-20.p-4.w-47.ml-3
                 p Trabajo intelectual: requiere esfuerzo creativo.
           
-          div(x="68.2%" y="8%" tooltip="Rasgos y características" numero="")
+          div(x="68.5%" y="8%" tooltip="Rasgos y características" numero="")
             h3.text-center.position-absolute(style="top: -33px; left: 40%;") Rasgos y características
             .row
               .col-6.border-naranja.rounded-20.p-4.w-47.ml-3
@@ -100,7 +101,7 @@
                 .h4 Proyectos públicos o sociales:
                 p.mt-1 Buscan impactar la calidad de vida de la población, promovidos por el Estado, ONG y políticas sociales de las empresas.
           
-          div(x="94.3%" y="57.2%" tooltip="Rasgos y características" numero="")
+          div(x="95%" y="57.2%" tooltip="Rasgos y características" numero="")
             h3.text-center.position-absolute(style="top: -33px; left: 40%;") Rasgos y características
             .row
               .col-6.border-naranja.rounded-20.p-4.w-47.ml-3
@@ -109,6 +110,9 @@
               .col-6.border-naranja.rounded-20.p-4.w-47.ml-3
                 .h4 Proyectos de mejora, soporte y mantenimiento:
                 p.mt-1 Orientados a garantizar el mayor rendimiento de la productividad y la calidad de los servicios de la organización.
+      .col-lg-10.movil(data-aos="slide-up")
+        figure
+          img(src='@/assets/curso/temas/tema1/tema-1-7_1.svg', alt='')
     separador
 
     .titulo-segundo.mt-5.color-acento-contenido
@@ -120,7 +124,7 @@
         p.mt-3 También se define la gestión de proyectos como la planificación, la organización, el monitoreo y el control de todos los aspectos del proyecto y la motivación de todos los involucrados para el logro de los objetivos, con seguridad y dentro de los criterios acordados de tiempo, costo y desempeño.
         p.mt-3 El éxito de un proyecto radica en tener la capacidad de satisfacer los requerimientos de las partes interesadas y obtener los resultados esperados, siendo eficiente en el tiempo y con los recursos.
         p.mt-3 Adicionalmente a esto, existen 5 procesos de gestión de proyectos que se deben lograr para el cumplimiento de los objetivos del proyecto. Para conocer los grupos de procesos y sus elementos, explore el siguiente gráfico interactivo:
-      .col-4.offset-4.offset-lg-0.align-self-center
+      .col-lg-4.col-sm-8
         figure
           img(src="@/assets/curso/temas/tema1/tema-1-8.svg", alt="Imagen decorativa")
     .row
@@ -128,13 +132,13 @@
         .titulo-quinto.color-acento-contenido.mt-5
           h4 Grupo de procesos
     .row.mt-0.overflow-hidden.pt-0.pt-md-0
-      .col-12.mt-0.mt-sm-3.mt-md-0
+      .col-12.mt-0.mt-sm-3.mt-md-0.desktop
         .row.mt-0.mt-sm-3.mt-md-0
           .col-12.col-lg-10.offset-0.offset-lg-1.pt-0
             ImagenInfografica.color-primario.mt-2
               template(v-slot:imagen)
                 figure
-                  img(src='@/assets/curso/temas/tema1/tema-1-9.png', alt='Imagen decorativa')
+                  img(src='@/assets/curso/temas/tema1/tema-1-9.svg', alt='Imagen decorativa')
 
               .tarjeta.border-azul.bg-blanco.p-3(x="3%" y="26%" numero="")
                 .h4 1. Procesos de inicio:
@@ -187,7 +191,9 @@
                 .h4.mt-4 Sus elementos de proceso son:
                 p.mt-2 Cierre de proyecto o fase.
                 p Cierre de las adquisiciones.
-      
+      .col-12.mt-0.mt-sm-3.mt-md-0.movil
+        figure
+          img(src='@/assets/curso/temas/tema1/tema-1-9_1.svg', alt='Imagen decorativa')
 </template>
 
 <script>

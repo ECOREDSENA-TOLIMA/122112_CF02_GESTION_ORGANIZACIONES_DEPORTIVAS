@@ -110,7 +110,7 @@
             i.fas.fa-angle-right
             | Proyecto de entrenamiento deportivo, sin tener en cuenta los costos del talento humano y los recursos físicos y locativos necesarios para su funcionamiento, donde los gastos sobrepasan los ingresos y/o no se tienen contempladas las fuentes de financiación.
         p.mt-3 Estos son tan solo algunos de los muchos ejemplos de proyectos del sector deporte que fracasan al no tener en cuenta qué tan viable y factible sería ejecutar el proyecto. Por lo tanto, el proyecto será factible si cumple con la viabilidad de ejecución en cada uno de los aspectos.
-      .col-4.offset-4.offset-lg-0.align-self-center
+      .col-lg-4.col-sm-10
         figure
           img(src="@/assets/curso/temas/tema2/tema-2-11.svg", alt="Imagen Decorativa")
     separador.mt-5
@@ -199,7 +199,7 @@
               figure
                 img(src="@/assets/curso/temas/tema2/tema-2-23.svg", alt="Imagen Decorativa").w-75.margin-0-auto
             .col-12.col-lg-10.align-self-center
-              p.text-small Deberá estar firmado, al menos, por el sponsor o patrocinador del proyecto y por el director del proyecto.
+              p.text-small Deberá estar firmado, al menos, por el #[i sponsor] o patrocinador del proyecto y por el director del proyecto.
     separador.mt-5
     .titulo-segundo.mt-5.color-acento-contenido
       #t_2_3.h2 2.3  Identificación de las partes interesadas  
@@ -215,7 +215,7 @@
         .titulo-quinto.color-acento-contenido.mt-5
           h4 Identificación de las partes interesadas
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+      .col-lg-10.desktop
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
@@ -236,7 +236,10 @@
           .tarjeta.border-azul.bg-blanco.p-3(x="84.5%" y="44%" numero="EMPLEADOS")
             .h5.mb-2 Empleados
             p Talento que conforma el equipo ejecutor del proyecto.
-    
+      .col-lg-10.movil
+        figure
+          img(src='@/assets/curso/temas/tema2/tema-2-25_1.svg', alt='Identificación de las partes interesadas: clientes: usuario final de los servicios o productos generados por el proyecto, patrocinadores: personas u organizaciones que invierten en el proyecto, organización:empresa ejecutante del proyecto, proveedores:suministradores de productos o servicios necesarios para que el proyecto pueda desarrollarse, empleados: talento que conforma el equipo ejecutor del proyecto')
+
     .row.mt-5
       .col-12.col-lg-7
         p El director debe realizar el seguimiento y la revisión de la información sobre estas partes interesadas y sus requisitos pertinentes, determinando los siguientes puntos:
