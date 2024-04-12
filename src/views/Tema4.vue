@@ -26,7 +26,7 @@
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema4/tema-4-3.png', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/tema4/tema-4-3.svg', alt='Imagen decorativa')
 
           .tarjeta.border-naranja.bg-blanco.p-3(x="19%" y="62%" numero="1")
             .h5.mb-2 1. Mercadeo de influenciadores: 
@@ -57,7 +57,7 @@
             p Es una técnica de creación y distribución de contenido relevante para atraer al cliente; implica historia de la marca, narraciones y vínculos emocionales con la marca.
     p.mt-5 Es importante, dentro de esta contextualización, tener claridad sobre conceptos como:
     .row.justify-content-center(data-aos="fade-down").mt-5.text-white.px-5
-      .col-10.col-md-6
+      .col-10.col-md-10.col-sm-10
         .row.px-2.pt-2.h-100(@mouseover="mostrarIndicador = false")
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
@@ -68,7 +68,7 @@
                 .h4.small-text.mt-sm-3.mt-md-0.mt-lg-2 Producto
                 p.mt-3.small-text Es un conjunto de características, funciones, beneficios y usos, que se puede intercambiar y que satisface una necesidad o un deseo.
 
-      .col-10.col-md-6
+      .col-10.col-md-10
         .row.px-2.pt-2.h-100(@mouseover="mostrarIndicador = false")
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
@@ -80,7 +80,7 @@
                 p.mt-3.small-text Son las personas o empresas que toman la decisión de compra de un producto o servicio, y que, a su vez, mantienen una relación comercial con la empresa, organización o persona.
     
     .row.justify-content-center(data-aos="fade-down").mt-3.text-white.px-5
-      .col-10.col-md-6
+      .col-10.col-md-10
         .row.px-2.pt-2.h-100(@mouseover="mostrarIndicador = false")
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
@@ -91,7 +91,7 @@
                 .h4.small-text.mt-sm-3.mt-md-0.mt-lg-2 Consumidor
                 p.mt-3.small-text Es quien satisface su necesidad o deseo de adquirir un producto o servicio.
 
-      .col-10.col-md-6
+      .col-10.col-md-10
         .row.px-2.pt-2.h-100(@mouseover="mostrarIndicador = false")
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
             figure
