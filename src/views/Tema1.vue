@@ -133,64 +133,129 @@
           h4 Grupo de procesos
     .row.mt-0.overflow-hidden.pt-0.pt-md-0
       .col-12.mt-0.mt-sm-3.mt-md-0.desktop
-        .row.mt-0.mt-sm-3.mt-md-0
-          .col-12.col-lg-10.offset-0.offset-lg-1.pt-0
-            ImagenInfografica.color-primario.mt-2
-              template(v-slot:imagen)
-                figure
-                  img(src='@/assets/curso/temas/tema1/tema-1-9.svg', alt='Imagen decorativa')
+        ImagenInfografica.color-primario.mt-2
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema1/tema-1-9.svg', alt='Imagen decorativa')
 
-              .tarjeta.border-azul.bg-blanco.p-3(x="3%" y="26%" numero="")
-                .h4 1. Procesos de inicio:
-                p.mt-2 Definen el inicio de un proyecto o de una fase del mismo.
-                .h4.mt-4 Sus elementos de proceso son:
-                p.mt-2 Acta de constitución.
-                p Identificación de las partes interesadas.
-              .tarjeta.border-azul.bg-blanco.p-3(x="11.7%" y="55%" numero="")
-                .h4 2. Procesos de planificación:
-                p.mt-2 Establecen el alcance, objetivos y el curso de acción para el cumplimiento de ellos.
-                .h4.mt-4 Sus elementos de proceso son:
-                p.mt-2 Gestión del alcance. 
-                p Gestión del cronograma. 
-                p Gestión de costos.
-                p Gestión de calidad.
-                p Gestión de recursos humanos.
-                p Gestión de comunicaciones.
-                p Gestión de riesgos.
-                p Gestión de adquisiciones.
-                p Gestión de partes interesadas.
-              .tarjeta.border-azul.bg-blanco.p-3(x="50%" y="92.5%" numero="")
-                .h4 3. Procesos de ejecución:
-                p.mt-2 Materialización de los trabajos definidos en el plan de acción.
-                .h4.mt-4 Sus elementos de proceso son:
-                p.mt-2 Dirección y gestión del trabajo del proyecto.
-                p Realizar el aseguramiento de la calidad.
-                p Adquirir e incorporar el equipo del proyecto.
-                p Desarrollar el equipo de proyecto.
-                p Gestionar el equipo del proyecto.
-                p Efectuar la procura: adquisiciones y contrataciones.
-                p Gestionar el involucramiento de las partes interesadas.
-              .tarjeta.border-azul.bg-blanco.p-3.f-10(x="89.7%" y="55%" numero="")
-                .h4 4.  Procesos de seguimiento y control:
-                p.mt-2 Monitoreo del progreso y desempeño logrados, identificar y corregir desviaciones.
-                .h4.mt-4 Sus elementos de proceso son:
-                p.mt-2 Seguimiento y control del trabajo del proyecto.
-                p.f-10 Validar el alcance.
-                p.f-10 Control del alcance.
-                p.f-10 Control del cronograma.
-                p.f-10 Control de costos.
-                p.f-10 Método de valor ganado.
-                p.f-10 Control de calidad.
-                p.f-10 Control de comunicaciones.
-                p.f-10 Control de riesgos.
-                p.f-10 Control de adquisiciones.
-                p.f-10 Control de involucramiento de las partes interesadas.
-              .tarjeta.border-azul.bg-blanco.p-3(x="97.4%" y="26.3%" numero="")
-                .h4 5.  Procesos de cierre:
-                p.mt-2 Fin de las actividades y cierre formal del proyecto o fase.
-                .h4.mt-4 Sus elementos de proceso son:
-                p.mt-2 Cierre de proyecto o fase.
-                p Cierre de las adquisiciones.
+          .tarjeta.border-azul.bg-blanco.p-3(x="3%" y="26%" numero="")
+            .h4 1. Procesos de inicio:
+            p.mt-2 Definen el inicio de un proyecto o de una fase del mismo.
+            .h4.mt-4 Sus elementos de proceso son:
+            ul.lista-ul
+              li
+                i.fas.fa-angle-right
+                | Acta de constitución.
+              li
+                i.fas.fa-angle-right
+                | Identificación de las partes interesadas.
+          .tarjeta.border-azul.bg-blanco.p-3(x="11.7%" y="55%" numero="")
+            .h4 2. Procesos de planificación:
+            p.mt-2 Establecen el alcance, objetivos y el curso de acción para el cumplimiento de ellos.
+            .h4.mt-4 Sus elementos de proceso son:
+            ul.lista-ul
+              li
+                i.fas.fa-angle-right
+                | Gestión del alcance.
+              li
+                i.fas.fa-angle-right
+                | Gestión del cronograma.
+              li
+                i.fas.fa-angle-right
+                | Gestión de costos.
+              li
+                i.fas.fa-angle-right
+                | Gestión de calidad.
+              li
+                i.fas.fa-angle-right
+                | Gestión de recursos humanos.
+              li
+                i.fas.fa-angle-right
+                | Gestión de comunicaciones.
+              li
+                i.fas.fa-angle-right
+                | Gestión de riesgos.
+              li
+                i.fas.fa-angle-right
+                | Gestión de adquisiciones.
+              li
+                i.fas.fa-angle-right
+                | Gestión de partes interesadas.
+          .tarjeta.border-azul.bg-blanco.p-3(x="50%" y="92.5%" numero="")
+            .h4 3. Procesos de ejecución:
+            p.mt-2 Materialización de los trabajos definidos en el plan de acción.
+            .h4.mt-4 Sus elementos de proceso son:
+            ul.lista-ul
+              li
+                i.fas.fa-angle-right
+                | Dirección y gestión del trabajo del proyecto.
+              li
+                i.fas.fa-angle-right
+                | Realizar el aseguramiento de la calidad.
+              li
+                i.fas.fa-angle-right
+                | Adquirir e incorporar el equipo del proyecto.
+              li
+                i.fas.fa-angle-right
+                | Desarrollar el equipo de proyecto.
+              li
+                i.fas.fa-angle-right
+                | Gestionar el equipo del proyecto.
+              li
+                i.fas.fa-angle-right
+                | Efectuar la procura: adquisiciones y contrataciones.
+              li
+                i.fas.fa-angle-right
+                | Gestionar el involucramiento de las partes interesadas.
+          .tarjeta.border-azul.bg-blanco.p-3.f-10(x="89.7%" y="55%" numero="")
+            .h4 4.  Procesos de seguimiento y control:
+            p.mt-2 Monitoreo del progreso y desempeño logrados, identificar y corregir desviaciones.
+            .h4.mt-4 Sus elementos de proceso son:
+            ul.lista-ul
+              li
+                i.fas.fa-angle-right
+                | Seguimiento y control del trabajo del proyecto.
+              li
+                i.fas.fa-angle-right
+                | Validar el alcance.
+              li
+                i.fas.fa-angle-right
+                | Control del alcance.
+              li
+                i.fas.fa-angle-right
+                | Control del cronograma.
+              li
+                i.fas.fa-angle-right
+                | Control de costos.
+              li
+                i.fas.fa-angle-right
+                | Método de valor ganado.
+              li
+                i.fas.fa-angle-right
+                | Control de calidad.
+              li
+                i.fas.fa-angle-right
+                | Control de comunicaciones.
+              li
+                i.fas.fa-angle-right
+                | Control de riesgos.
+              li
+                i.fas.fa-angle-right
+                | Control de adquisiciones.
+              li
+                i.fas.fa-angle-right
+                | Control de involucramiento de las partes interesadas.
+          .tarjeta.border-azul.bg-blanco.p-3(x="97.4%" y="26.3%" numero="")
+            .h4 5.  Procesos de cierre:
+            p.mt-2 Fin de las actividades y cierre formal del proyecto o fase.
+            .h4.mt-4 Sus elementos de proceso son:
+            ul.lista-ul
+              li
+                i.fas.fa-angle-right
+                | Cierre de proyecto o fase.
+              li
+                i.fas.fa-angle-right
+                | Cierre de las adquisiciones.
       .col-12.mt-0.mt-sm-3.mt-md-0.movil
         figure
           img(src='@/assets/curso/temas/tema1/tema-1-9_1.svg', alt='Imagen decorativa')

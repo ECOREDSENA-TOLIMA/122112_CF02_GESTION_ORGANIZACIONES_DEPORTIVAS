@@ -314,9 +314,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
+          nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -331,23 +331,40 @@ export default {
         },
         {
           nombre: 'Tatiana Cristina Vargas ',
-          cargo: 'Instructora ',
+          cargo: 'Experto temático',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Paola Andrea Quintero Aguilar',
           cargo: 'Diseñadora instruccional',
-          centro: 'Centro de Gestión Industrial - Regional Bogotá',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Revisor Metodológico y Pedagógico',
+          cargo: 'Asesoría metodológica y pedagógica',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Darío González ',
           cargo: 'Corrección de estilo',
           centro: 'Centro Agropecuario La Granja - Regional Tolima',
+        },
+        {
+          nombre: 'Gloria Lida Alzate Suarez',
+          cargo: 'Adecuación instruccional-2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Asesoría metodológica y pedagógica',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Viviana Esperanza Herrera Quiñonez',
+          cargo: 'Evaluación instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -426,30 +443,35 @@ export default {
           centro:
             'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
         },
+        {
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Diseño web',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Veimar Celis Meléndez',
+          cargo: 'Desarrollador Fullstack',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
+          nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Javier Mauricio Oviedo',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Jorge Bustos Gómez',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
