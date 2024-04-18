@@ -131,7 +131,7 @@
       .col-12
         .titulo-quinto.color-acento-contenido.mt-5
           h4 Grupo de procesos
-    .row.mt-0.overflow-hidden.pt-0.pt-md-0
+    .row.justify-content-center.align-items-center.mb-5      
       .col-12.mt-0.mt-sm-3.mt-md-0.desktop
         ImagenInfografica.color-primario.mt-2
           template(v-slot:imagen)
