@@ -300,7 +300,7 @@ export default {
     },
     {
       referencia:
-        'Plepso, C. A. (2015, 8 de agosto). Estudios de mercados y de opinión pública',
+        'Plepso, C. A. (2015). Estudios de mercados y de opinión pública. Según Mullin (1985). Recuperado de',
       link: 'https://plepso.blogspot.com/2015/08/marketing-deportivo.html',
     },
   ],
