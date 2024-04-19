@@ -192,7 +192,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/122112_CF02_DU',
+        download: 'downloads/122112_CF02_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -288,7 +288,7 @@ export default {
     },
     {
       referencia:
-        'Project Management Institute. (2013). Guía de los fundamentos para la dirección de proyectos (Guía del PMBOK) (5ta ed.).',
+        'Project Management Institute [PMI]. (2013). Guía de los fundamentos para la dirección de proyectos (Guía del PMBOK) (5ta ed.).',
       link:
         'https://sistemastic.files.wordpress.com/2017/07/guia_de_los_fundamentos_para_la_direccion_de_proyectos-pmbok_5ta_edicion_espanol.pdf',
     },
