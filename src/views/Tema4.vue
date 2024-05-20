@@ -20,7 +20,7 @@
         figure
           img(src="@/assets/curso/temas/tema4/tema-4-2.png", alt="Imagen decorativa")
       .col-12.col-lg-7.align-self-center
-        p El mercadeo, según la American Marketing Association [A.M.A] (2017), citado por ESAN (2016), se define como “la actividad, el conjunto de instituciones y los procesos para crear, comunicar, entregar e intercambiar ofertas que tienen valor para los clientes, los socios y la sociedad en general”. El mercadeo, dentro de cualquier organización, es una herramienta fundamental para lograr sus objetivos y un crecimiento exitoso; igualmente, la A.M.A define los tipos de mercadeo según las particularidades de la empresa, organización o persona, los cuales se mencionan a continuación:
+        p El mercadeo, según la American Marketing Association [A.M.A] (2017), citado por ESAN (2016), se define como: “la actividad, el conjunto de instituciones y los procesos para crear, comunicar, entregar e intercambiar ofertas que tienen valor para los clientes, los socios y la sociedad en general”. El mercadeo, dentro de cualquier organización, es una herramienta fundamental para lograr sus objetivos y un crecimiento exitoso; igualmente, la A.M.A define los tipos de mercadeo según las particularidades de la empresa, organización o persona, los cuales se mencionan a continuación:
     .row.mt-5
       .col-10.offset-1(data-aos="flip-down")
         ImagenInfografica.color-acento-botones
@@ -122,7 +122,7 @@
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-10.svg", alt="Imagen decorativa").w-75.margin-0-auto
             .col-12.col-lg-10.align-self-center
-              p.text-small Es cuando se agrupa grupos de clientes en función de su comportamiento al momento de tomar una decisión de compra, es decir, el conocimiento que tiene del producto, el nivel de lealtad, las interacciones, el uso que le da al producto.
+              p.text-small Es cuando se agrupa grupos de clientes en función de su comportamiento al momento de tomar una decisión de compra, es decir, el conocimiento que tiene del producto, el nivel de lealtad, las interacciones y el uso que le da al producto.
                  
           .row(numero="3" titulo="Segmentación psicográfica")
             .col-2.d-none.d-lg-block
@@ -206,7 +206,7 @@
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-19.svg", alt="Imagen decorativa").w-75.margin-0-auto
             .col-12.col-lg-9.align-self-center
-              p.text-small La misión es la razón por la cual la empresa existe, el motor que la mueve. Es decir, es la justificación del accionar de la empresa. En este sentido, la misión se relaciona con los objetivos. Por su parte, la visión es la proyección que la empresa tiene de sí misma en un futuro, lo que espera cumplir a largo plazo, es decir, cómo se ve en 10, 15, 20 años.
+              p.text-small La misión es la razón por la cual la empresa existe, el motor que la mueve. Es decir, es la justificación del accionar de la empresa. En este sentido, la misión se relaciona con los objetivos. Por su parte, la visión es la proyección que la empresa tiene de sí misma en un futuro, lo que espera cumplir a largo plazo, es decir, cómo se ve en 10, 15 y 20 años.
           .row(numero="4" titulo="Certificaciones")
             .col-3.d-none.d-lg-block
               figure

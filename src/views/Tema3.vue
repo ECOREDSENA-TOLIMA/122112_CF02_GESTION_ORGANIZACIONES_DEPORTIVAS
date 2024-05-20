@@ -153,7 +153,7 @@
         p En el plan de gestión de calidad del proyecto, se establecen los requerimientos de calidad que deben cumplir los entregables del proyecto.
         p.mt-3 Al finalizar cada una de las fases del proyecto, surgen entregables, para los cuales, desde la fase de planificación del proyecto, se deben establecer parámetros de calidad esperados.
         p.mt-3 Es importante entender previamente el concepto de calidad, entendida como un proceso continuo, sin fin, de mejora aplicable a todas las fases y componentes del proyecto, con el fin de mejorar los productos y servicios que la organización ofrece.
-        p.mt-3 La ISO 9000 define la calidad como “la totalidad de rasgos y características de un producto o servicio que son relevantes en su habilidad para satisfacer las necesidades declaradas o implícitas del cliente”. Por otro lado, el IPMA define la calidad de un proyecto como “la base de la calidad de un proyecto son las prácticas de dirección de calidad por la organización permanentemente implicada y contribuye a los procesos y resultados del proyecto”.
+        p.mt-3 La ISO 9000 define la calidad como: “la totalidad de rasgos y características de un producto o servicio que son relevantes en su habilidad para satisfacer las necesidades declaradas o implícitas del cliente”. Por otro lado, el IPMA define la calidad de un proyecto como “la base de la calidad de un proyecto son las prácticas de dirección de calidad por la organización permanentemente implicada y contribuye a los procesos y resultados del proyecto”.
         p.mt-3 La gestión de calidad comprende los siguientes componentes:
         ul.lista-ul.mt-3
           li 
