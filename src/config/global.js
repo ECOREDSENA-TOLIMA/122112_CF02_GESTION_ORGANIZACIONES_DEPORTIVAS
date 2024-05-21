@@ -208,11 +208,11 @@ export default {
   },
   complementario: [
     {
-      tema:
-        'Project Management Institute [PMI]. (2004). Guía de los Fundamentos para la Dirección de Proyectos.',
+      tema: '3. Grupo de planificación del proyecto',
       tipo: 'Libro digital',
-      referencia: '',
-      descarga:
+      referencia:
+        'Project Management Institute [PMI]. (2004). Guía de los Fundamentos para la Dirección de Proyectos.',
+      link:
         'https://www.sadamweb.com.ar/news/2016_08Agosto/Guia_Fundamentos_para_la_Direccion_de_Proyectos-4ta_Edicion.pdf?PMBOX=http://www.sadamweb.com.ar/news/2016_08Agosto/Guia_Fundamentos_para_la_Direccion_de_Proyectos-4ta_Edicion.pdf',
     },
   ],

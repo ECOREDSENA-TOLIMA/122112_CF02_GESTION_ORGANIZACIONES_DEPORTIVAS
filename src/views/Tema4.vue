@@ -206,7 +206,7 @@
               figure
                 img(src="@/assets/curso/temas/tema4/tema-4-19.svg", alt="Imagen decorativa").w-75.margin-0-auto
             .col-12.col-lg-9.align-self-center
-              p.text-small La misión es la razón por la cual la empresa existe, el motor que la mueve. Es decir, es la justificación del accionar de la empresa. En este sentido, la misión se relaciona con los objetivos. Por su parte, la visión es la proyección que la empresa tiene de sí misma en un futuro, lo que espera cumplir a largo plazo, es decir, cómo se ve en 10, 15 y 20 años.
+              p.text-small La misión es la razón por la cual la empresa existe, el motor que la mueve. Es decir, es la justificación del accionar de la empresa. En este sentido, la misión se relaciona con los objetivos. Por su parte, la visión es la proyección que la empresa tiene de sí misma en un futuro, lo que espera cumplir a largo plazo, es decir, cómo se ve en 10, 15 o 20 años.
           .row(numero="4" titulo="Certificaciones")
             .col-3.d-none.d-lg-block
               figure
