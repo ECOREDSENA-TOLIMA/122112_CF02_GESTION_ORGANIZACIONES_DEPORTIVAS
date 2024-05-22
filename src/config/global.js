@@ -310,7 +310,7 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Líder del equipo',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
@@ -325,45 +325,45 @@ export default {
       autores: [
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesor metodológico y pedagógico',
+          cargo: 'Asesor Metodológico y Pedagógico',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Tatiana Cristina Vargas ',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro: 'Regional Antioquia - Centro de Servicios de Salud',
         },
         {
           nombre: 'Paola Andrea Quintero Aguilar',
-          cargo: 'Diseñadora instruccional',
+          cargo: 'Diseñadora Instruccional',
           centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Asesoría metodológica y pedagógica',
+          cargo: 'Asesoría Metodológica y Pedagógica',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
           nombre: 'Darío González ',
-          cargo: 'Corrección de estilo',
+          cargo: 'Corrección de Estilo',
           centro: 'Regional Tolima - Centro Agropecuario La Granja',
         },
         {
           nombre: 'Gloria Lida Alzate Suarez',
-          cargo: 'Adecuación instruccional-2023',
+          cargo: 'Adecuación Instruccional-2023',
           centro:
             'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la información',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
-          cargo: 'Asesoría metodológica y pedagógica',
+          cargo: 'Asesoría Metodológica y Pedagógica',
           centro:
             'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la información',
         },
         {
           nombre: 'Viviana Esperanza Herrera Quiñonez',
-          cargo: 'Evaluación instruccional',
+          cargo: 'Evaluación Instruccional',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
@@ -373,79 +373,80 @@ export default {
       autores: [
         {
           nombre: 'Francisco José Lizcano Reyes',
-          cargo: 'Responsable del equipo',
+          cargo: 'Responsable del Equipo',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Leyson Fabian Castaño Perez',
-          cargo: 'Soporte organizacional',
+          cargo: 'Soporte Organizacional',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Luis Fernando Sarmiento Betancourth',
-          cargo: 'Diseño web',
+          cargo: 'Diseño Web',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Adriana Marcela Suárez Eljure ',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Andrés Felipe Herrera Roldan',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Camilo Andrés Bolaño Rey',
-          cargo: 'Producción audiovisual',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+          cargo: 'Producción Audiovisual',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Gilberto Junior Rodriguez Rodriguez',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'José Jaime Luis Tang Pinzón',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Ricardo Vásquez Arroyave ',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Wilson Andrés Arenales Caceres ',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Zuleidy Maria Ruiz Torres',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Lizeth Karina Manchego Suárez',
-          cargo: 'Desarrollo front-end',
+          cargo: 'Desarrollo Front-end',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Yenny Patricia Ulloa Villamizar',
-          cargo: 'Validación de diseño y contenido',
+          cargo: 'Validación de Diseño y Contenido',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Diseño web',
+          cargo: 'Diseño Web',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
@@ -460,7 +461,7 @@ export default {
       autores: [
         {
           nombre: 'Norma Constanza Morales Cruz',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
